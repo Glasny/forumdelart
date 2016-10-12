@@ -3,8 +3,8 @@
     // Variables base de donnée
     $hostname = 'localhost';  		// Nom hôte MySQL (modifier si nécessaire)
     $database = 'nfa021_projet'; 	// Nom de la base de donnée
-    $username = 'root';				// Login MySQL (supprimer après installation)
-    $password = '846231';		// Pass MySQL  (supprimer après installation)
+    $username = 'user';				// Login MySQL (supprimer après installation)
+    $password = 'pass';		// Pass MySQL  (supprimer après installation)
     
     
     $DBLogin = array();
