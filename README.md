@@ -1,6 +1,6 @@
-Forum de l'art
+<h1>Forum de l'art</h1>
 
-<h1>Projet web(NFA021) et graphisme web (NFA084). Juillet 2015</h1>
+Projet web(NFA021) et graphisme web (NFA084). Juillet 2015
 
 Côté serveur: PHP, MySQL, serveur Nginx<br/>
 Côté client: HTML, CSS, JavaScript
