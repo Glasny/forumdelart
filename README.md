@@ -1,4 +1,4 @@
-Forum de l'art
+<h1>Forum de l'art</h1>
 
 Projet web(NFA021) et graphisme web (NFA084).
 Juillet 2015
