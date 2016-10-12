@@ -3,7 +3,6 @@
     include_once('info.php'); // Contient les informations de connexion à la bdd
     
     
-    
     // CRÉATION ET CONNEXION À LA BASE
     
     // Connection serveur SQL
