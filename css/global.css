@@ -1,0 +1,319 @@
+
+/* GÉNÉRAL */
+body {
+	min-width: 1000px;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	font-size: 0.9em;
+	font-family: circular, sans-serif;
+}
+a, a:visited, a:active  {
+	text-decoration: none;
+}
+input[type='submit'], button, .bouton {
+	border: none;
+	cursor: pointer;
+	background-color: #006060;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	color: white;
+}
+input[type='text'], input[type='password'] {
+	width: 200px;
+}
+label {
+	font-weight: bold;
+}
+textarea {
+	display: block;
+	margin-top: 10px;
+}
+label.textareaLabel {
+	display: block !important;
+	width: 200px !important;
+}
+#msgBloc {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 5;
+	line-height: 5em;
+}
+#msgBloc span {
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px #555;
+	color: white;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#msgErreur {
+	background-color: #b22724;
+}
+#msgConfirm {
+	background-color: #009494;
+}
+#listeError {
+	padding-top: 60px;
+	text-align:center;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: #333;
+}
+#errorDisplay {
+	padding-top: 150px;
+	text-align: center;
+	line-height: 2em;
+	font-weight: bold;
+	font-size: 1.3em;
+	color: #333;
+}
+#cookieError {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	padding: 5px 0 14px 0;
+	font-size: 0.9em;
+	text-align: center;
+	color: #b22724;
+	background-color: #60CCCC;
+}
+#cookieError img {
+	position: relative;
+	top: 5px;
+	margin-right: 10px;
+}	
+
+
+
+
+
+/* MENU DU HAUT */
+
+#menuBackgroundLeft {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 60px;
+	width: 49%;
+	background-color: #009494;
+}
+#menuBackgroundRight {
+	position:absolute;
+    top:0;
+    left:51%;
+	width: 49%;
+	height: 60px;
+	background-color: #006060;
+}
+#topMenu {
+	position: relative;
+	width: 1000px;
+	height: 60px;
+	margin: 0 auto 0 auto;
+	background-color: #009494;
+	color: white;
+	z-index: 3;
+}
+#topMenu a {
+	color: white;
+	font-weight: bold;
+}
+#topMenu a:hover, #seConnecter:hover {
+	color: #C4F0F0;
+}
+
+#menuTitre {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 60px;
+	background-image:url(../images/forumdelart.png);
+}
+
+#menuList {
+	position: absolute;
+	top: 40px;
+	left: 320px;
+}
+
+#menuList>a {
+	padding: 5px;
+	margin: 0 10px 0 10px;
+}
+
+#seConnecter, #toCompteUser {
+	position: absolute;
+	top: 10px; right: 180px;
+}
+
+#creerCompte, #logout {
+	position: absolute;
+	top: 10px; right: 20px;
+}
+
+#seConnecter {
+	cursor: pointer;
+	font-weight: bold;
+}
+#connectBloc {
+	display: none;
+	position: absolute;
+	top: 40px;
+	right: 160px;
+	width: 440px;
+	height: 100px;
+	background-color: white;
+	z-index: 4;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 8px;
+	color: #333;
+}
+#connectBloc div {
+	height: 40px;
+}
+.etiquette {
+	font-weight: bold;
+}
+#connectBloc input[type='submit'], #annulerLogin {
+	border-radius: 5px;
+	font-weight: bold;
+}
+#annulerLogin {
+	position: relative;
+	top: 1px;
+	padding: 1px 8px 0 8px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.connectInput {
+	float: right;
+}
+#connectBloc div:nth-child(4) {
+	padding-top: 10px;
+	text-align: right;
+}
+#loginError {
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+	color: #b22724;
+}
+.forceAffichage {
+	display: block !important;
+}
+
+
+
+
+
+/* CONTENU CENTRAL */
+#mainBloc {
+	position: relative;
+	width: 1000px;
+	min-height: 600px;
+	margin: 0 auto 0 auto;
+	background-color: rgba(0,170,170,0.3);
+	color: #333;
+}
+#indexPresentation {
+	height: 105px;
+	padding-top: 40px;
+	text-align: center;
+	line-height: 1.4em;
+	font-size: 1.6em;
+	font-family: serif;
+	font-weight: bold;
+	font-style: italic;
+	color: #333;
+}
+#pageTitre {
+	margin: 0 auto 0 auto;
+	padding: 30px 0 30px 0;
+	text-align: center;
+	font-size: 1.6em;
+	font-weight: bold;
+	color: #333;
+}
+#bloc1 {
+	background-color: rgba(100,170,170,0.5);
+}
+#bloc2 {
+	background-color: rgba(100,170,170,0.6);
+}
+#bloc3 {
+	background-color: rgba(100,170,170,0.7);
+}
+.blocTitre {
+	width: 400px;
+	height: 33px;
+	margin: 0 auto 0 auto;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+.indexDisplayBloc {
+	height: 260px;
+	padding: 10px 0 10px 18px;
+	background-color: rgba(255,255,255,0.5);
+}
+.oeuvreBloc {
+	display: block;
+	float: left;
+	height: 230px;
+	width: 170px;
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
+.oeuvreBlocImage {
+	width: 100%;
+	height: 120px;
+	text-align: center;
+}
+.oeuvreBlocImage>img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.oeuvreBlocTitre {
+	font-weight: bold;
+	margin: 10px 0 10px 5px;
+}
+.oeuvreBlocArtiste {
+	font-weight: normal;
+}
+.oeuvreBlocInfo {
+	padding-left: 5px;
+	font-size: 0.8em;
+}
+
+
+
+
+
+
+/* PIED DE PAGE */
+#footer {
+	height: 40px;
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	padding-top: 15px;
+	color: white;
+	background-color: rgba(0,96,96, 0.8);
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+
+

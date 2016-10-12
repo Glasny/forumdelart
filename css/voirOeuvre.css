@@ -1,0 +1,275 @@
+/* Global */
+.oeuvrePartie {
+	width: 800px;
+	padding: 20px 100px 20px 100px;
+}
+#curNotes, #userNote {
+	padding-left: 20px;
+}
+.titrePartie {
+	font-weight: bold;
+	font-size: 1.1em;
+	margin: 0 0 10px 0;
+}
+
+/* Images */
+#oeuvreDisplay {
+	position: relative;
+	white-space: nowrap;
+	overflow: hidden;
+}
+#oeuvreImages {
+	display: inline-block;
+	width: 500px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgba(255,255,255,0.5);
+}
+#mainWindow {
+	position: relative;
+	text-align: center;
+	height: 375px;
+	margin-bottom: 10px;
+}
+#mainWindow>img {
+	display: none;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	max-width: 500px;
+	max-height: 375px;
+	cursor: pointer;
+}
+#loupe {
+	display: none;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/loupe.svg);
+}
+#mainWindow>img:first-child {
+	display: inline;
+}
+#listeMiniatures {
+	height: 120px;
+	text-align: center;
+	white-space: nowrap;
+}
+#listeMiniatures img {
+	margin: 0 5px 0 5px;
+	cursor: pointer;
+}
+#listeMiniatures img:first-child {
+	margin-left: 0;
+}
+#vuePleinEcran {
+	display: none;
+	z-index: 8;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(140, 140, 140, 0.9);
+}
+#blocVuePleinEcran {
+	height: 89%;
+	width: 90%;
+	margin: 1% auto 0 auto;
+	text-align: center;
+}
+#blocVuePleinEcran img {
+	display: none;
+	max-height: 100%;
+	max-width: 100%;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+#fermerPleinEcran {
+	z-index: 9;
+	display: block;
+	margin: 0 auto 0 auto;
+	height: 10%;
+	cursor: pointer;
+}
+#voirGauche, #voirDroite {
+	display: none;
+	z-index: 9;
+	position: absolute;
+	top: 42%;
+	width: 4%;
+	cursor: pointer;
+}
+#voirGauche {
+	left: 1%;
+}
+#voirDroite {
+	right: 1%;
+}
+
+
+
+/* Informations */
+#oeuvreInfo {
+	position: relative;
+	display: inline-block;
+	width: 420px;
+	height: 100%;
+	vertical-align: top;
+	padding: 20px;
+	white-space: normal;
+}
+.oeuvreInfoLine {
+	margin-top: 30px;
+	padding: 0 20px 0 20px;
+}
+#oeuvreTitre {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+#oeuvreDate {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 0.8em;
+	font-style: italic;
+}
+#oeuvreCategorie {
+	font-size: 0.9em;
+	font-style: italic;
+}
+#oeuvreArtiste {
+	font-size: 1.2em;
+	font-Weight: bold;
+	color: #006060;
+}
+#oeuvreArtiste:hover {
+	color: #009494;
+}
+#oeuvreDescri {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+
+/* Notes */
+#curNotes, #userNote {
+}
+#partieNotes {
+	background-color: rgba(0,0,0,0.05);
+}
+#curNotes {
+	margin-top: 20px;
+}
+#moyNotes {
+	font-weight: bold;
+}
+#nbVotes {
+	margin-left: 10px;
+	font-style: italic;
+	font-size: 0.8em;
+}
+#userNote select {
+	margin-left: 10px;
+}
+#userNote input[type='submit'] {
+	padding: 5px 10px 5px 10px;
+	margin-left: 20px;
+	border-radius: 8px;
+	background-color: #006060;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	color: white;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+
+/* Commentaires */
+#partieCommentaires {
+	background-color: rgba(0,0,0,0.1);
+}
+#oeuvreCommentaires {
+	width: 780px;
+	margin: 20px 0 0 20px;
+	padding: 0 0 20px 0;
+}
+#noComment {
+	margin: 20px auto 20px auto;
+	text-align: center;
+	color: #333;
+	font-weight: bold;
+}
+.commentBloc {
+	position: relative;
+	margin-top: 10px;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 5px;
+}
+.commentHead {
+	width: 770px;
+	padding: 5px;
+}
+.commentAuteur {
+	color: #006060;
+	font-weight: bold;
+}
+.commentAuteur:hover {
+	color: #009494;
+}
+.commentDate {
+	font-size: 0.8em;
+	font-style: italic;
+	margin-left: 20px;
+}
+.commentContenu, .editForm {
+	width: 760px;
+	padding: 10px;
+}
+.commentBottom {
+	width: 770px;
+	padding: 5px 10px 5px 0;
+	text-align: right;
+}
+.commentBottom form {
+	display: inline;
+}
+.editForm input[type='submit'], .editComment, .deleteComment, .cancelEdit {
+	padding: 5px;
+	margin-left: 10px;
+	border-radius: 8px;
+	background-color: #006060;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	color: white;
+	font-weight: bold;
+}
+.editForm input[type='submit'], .cancelEdit {
+	margin-top: 5px;
+}
+.editForm, .cancelEdit {
+	display: none;
+}
+.editForm textarea {
+	margin-left: 10px;
+}
+textarea {
+	width: 600px;
+	height: 60px;
+	border: none;
+}
+#postComment {
+	margin: 20px auto 0 auto;
+	width: 600px;
+}
+#postComment input[type='submit'] {
+	padding: 5px 10px 5px 10px;
+	margin-top: 10px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-size: 1.1em;
+	background-color: #006060;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	color: white;
+}
+

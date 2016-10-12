@@ -1,0 +1,42 @@
+#listeArtistes {
+	width: 810px;
+	height: 450px;
+	margin: 0 auto 0 auto;
+	background-color: rgba(255,255,255,0.5);
+	border-radius: 8px;
+}
+.listeColonne {
+	float: left;
+	width: 240px;
+	margin-left: 30px;
+}
+.listeColonne a {
+	display: block;
+	color: #006060;
+	font-weight: bold;
+	font-size: 1.1em;
+	margin-top: 25px;
+}
+.listeColonne a:hover {
+	color: #009494;
+}
+#liensPages {
+	padding: 20px 0 20px 95px;
+	font-weight: bold;
+	color: #333;
+}
+#liensPages a {
+	margin-left: 5px;
+	padding: 5px;
+	color: #006060;
+	text-decoration: underline;
+}
+#liensPages a:first-child {
+	margin-left: 10px;
+}
+#liensPages a:hover {
+	color: #009494;
+}
+#selectedPage {
+	color: #009494 !important;
+}

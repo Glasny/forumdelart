@@ -1,0 +1,217 @@
+/* Colonne de gauche */
+#leftColumn {
+	position: absolute;
+	left:0;
+	top:0;
+	width: 300px;
+	height: 600px;
+}
+#leftColHead {
+	height: 150px;
+	padding: 50px 10px 10px 10px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#leftColTitre {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+#leftColDate {
+	margin-top: 20px;
+}
+#leftColMain {
+	height: 450px;
+	background-color: rgba(0,0,0,0.05);
+	padding: 30px 10px 10px 10px;
+	box-sizing: border-box;
+}
+#leftColTitre2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+#leftColInfo, #leftColOeuvres, #leftColComment, #leftColSuivi {
+	padding: 20px;
+	width: 220px;
+	margin: 20px auto 0 auto;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	border-radius: 8px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.1em;
+}
+#leftColOeuvres {
+	display: block;
+}
+
+
+
+/* Colonne centrale */
+#centerColumn {
+	position: absolute;
+	top:0;
+	left: 300px;
+	width: 700px;
+	height: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: rgba(255,255,255,0.3);
+}
+#centerColComment, #centerColEditInfo, #centerColEditPass, #centerColSuivi {
+	display: none;
+}
+.formTitre {
+	margin-top: 20px;
+	font-size: 1.3em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 60px;
+}
+.formLine {
+	font-size: 1.1em;
+	margin: 20px 0 0 60px;
+}
+
+/* Page Informations */
+#centerColDescri {
+	padding: 10px;
+	width: 500px;
+	margin: 10px 0 0 60px;
+	color: #555;
+	border-radius: 5px;
+	font-style: italic;
+	background-color: rgba(255,255,255,0.4);
+}
+#editInfo {
+	position: absolute;
+	bottom: 80px;
+	left: 110px;
+}
+#editPass {
+	position: absolute;
+	bottom: 80px;
+	left: 330px;
+}
+.centerBouton {
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 8px;
+}
+#centerColEditInfo label {
+	display: inline-block;
+	width: 100px;
+}
+#suiviBloc {
+	position: absolute;
+	bottom: 40px;
+	left: 20px;
+}
+#suiviBlocTitre {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#suiviBloc .centerBouton {
+	margin-left: 20px;
+}
+
+/* Page Commentaires */
+.centerColAffichage {
+	width: 600px;
+	height: 430px;
+	padding: 10px;
+	margin: 20px auto 0 auto;
+	overflow-Y: auto;
+	box-sizing: border-box;
+	border-radius: 8px;
+}
+.centerColMessage {
+	margin: 30px;
+	text-align: center;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.centerCommentLine {
+	width: 560px;
+	padding: 5px;
+	margin-bottom: 5px;
+	background-color: rgba(255,255,255,0.4);
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	border-radius: 8px;
+}
+.centerCommentLien {
+	color: #006060;
+	font-weight: bold;
+}
+.centerCommentLien:hover {
+	color: #009494;
+}
+.commentDate {
+	font-size: 0.8em;
+	font-style: italic;
+	float: right;
+}
+.centerCommentContenu {
+	font-style: italic;
+}
+
+/* Page edit info */
+textarea {
+	width: 500px;
+	height: 140px;
+}
+.formBouton {
+	margin-top: 30px;
+	text-align: center;
+}
+.formBouton>span, .formBouton>input {
+	margin-right: 30px;
+}
+
+/* Page edit pass */
+#editPassErrorBloc, #editInfoErrorBloc {
+	padding: 30px 0 0 60px;
+}
+.editCompteError {
+	color: #b22724;
+	margin-top: 10px;
+}
+#centerColEditPass label {
+	display: inline-block;
+	width: 250px;
+}
+
+/* Page suivi */
+#centerColSuivi a {
+	display: block;
+	margin: 5px 20px 0 0;
+	padding: 5px;
+	color: #006060;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+#centerColSuivi a:hover {
+	color: #009494;
+}
+
+/* Page créer un compte */
+#creerCompteBloc {
+	width: 800px;
+	padding: 10px 0 30px 0;
+	margin-left: 200px;
+	text-align: left;
+}
+#creerCompteBloc label {
+	display: inline-block;
+	width: 150px;
+}
+#creerCompteBloc .formBouton {
+	padding-right: 200px;
+}
+#creerCompteBloc a {
+	margin: 0 20px 0 20px;
+}
+.formLine .editCompteError {
+	font-size: 0.8em;
+	margin-left: 20px;
+}

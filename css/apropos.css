@@ -1,0 +1,13 @@
+#aproposBloc {
+	padding: 100px 0 0 100px;
+}
+.aproposLine {
+	margin-top: 30px;
+	font-size: 1.1em;
+}
+.lineTitle {
+	display: inline-block;
+	width: 270px;
+	font-size: 1.1em;
+	font-weight: bold;
+}

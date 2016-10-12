@@ -1,0 +1,56 @@
+#oeuvreFormBloc {
+	width: 800px;
+	padding: 10px 0 30px 0;
+	margin-left: 200px;
+	text-align: left;
+}
+.formLine {
+	font-size: 1.1em;
+	margin: 20px 0 0 60px;
+}
+#oeuvreFormBloc label {
+	display: inline-block;
+	width: 200px;
+}
+#oeuvreFormBloc .formBouton {
+	padding-right: 200px;
+}
+#oeuvreFormBloc a {
+	margin: 0 20px 0 20px;
+}
+textarea {
+	width: 500px;
+	height: 140px;
+}
+.formLine .oeuvreFormError {
+	font-size: 0.8em;
+	margin-left: 20px;
+}
+.formBouton {
+	text-align: center;
+	margin-top: 40px;
+}
+.formBouton a, .formBouton input[type='submit'], .cancelImg, .suppImg {
+	padding: 5px 10px 5px 10px;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 8px;
+}
+#imgInfo {
+	margin-top: 20px;
+	color: #b22724;
+	font-weight: bold;
+	margin-left: 60px;
+}
+canvas, .cancelImg, .suppImg, .formLine img {
+	vertical-align: top;
+}
+canvas, .cancelImg, .modifImg, .imgId {
+	display: none;
+}
+.cancelImg, .suppImg {
+	margin-left: 20px;
+}
+.suppImg, .formLine img {
+	display: inline-block;
+}

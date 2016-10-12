@@ -1,0 +1,60 @@
+#ajouterOeuvre {
+	display: block;
+	width: 240px;
+	padding: 15px;
+	text-align: center;
+	margin: 0 0 30px 200px;
+	border-radius: 5px;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+#listeOeuvres {
+	margin-left: 200px;
+	padding-bottom: 40px;
+}
+.gererOeuvreBloc {
+	position: relative;
+	width: 700px;
+	margin-bottom: 15px;
+	padding: 10px 0 0 180px;
+	height: 140px;
+	box-sizing: border-box;
+	background-color: white;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	border-radius: 8px;
+}
+.gererBlocImg {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 160px;
+	text-align: center;
+}
+.gererBlocLigne {
+	margin-bottom: 5px;
+}
+.oeuvreTitre {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.oeuvreDate {
+	margin-left: 40px;
+	font-size: 0.9em;
+	font-style: italic;
+}
+.oeuvreVotes {
+	margin-left: 10px;
+	font-size: 0.9em;
+	font-style: italic;
+}
+.gererOeuvreBloc a, .gererOeuvreBloc input[type='submit'] {
+	margin: 10px 40px 0 0;
+	padding: 3px 10px 3px 10px;
+	border-radius: 4px;
+}
+.gererOeuvreBloc form {
+	display: inline;
+}
+#listeError {
+	padding-right: 200px;
+}

@@ -1,0 +1,58 @@
+#listeUsers {
+	margin-top: 40px;
+	padding: 0 100px 20px 100px;
+	min-height: 420px;
+}
+.userLine {
+	margin-top: 10px;
+	padding: 10px;
+}
+.userLine a {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #006060;
+}
+.userLine a:hover {
+	color: #009494;
+}	
+.userLine form, .userDate {
+	display: inline;
+	float: right;
+	margin-right: 30px;
+	
+}
+.userLine form select {
+	position: relative;
+	top: -5px;
+	margin-right: 30px;
+}
+.userLine form input {
+	position: relative;
+	top: -5px;
+	padding: 3px 10px 3px 10px;
+	border-radius: 4px;
+}
+.userDate {
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+
+#liensPages {
+	padding: 20px 0 20px 95px;
+	font-weight: bold;
+	color: #333;
+}
+#liensPages a {
+	margin-left: 5px;
+	padding: 5px;
+	color: #006060;
+	text-decoration: underline;
+}
+#liensPages a:first-child {
+	margin-left: 10px;
+}
+#liensPages a:hover {
+	color: #009494;
+}
+

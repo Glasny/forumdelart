@@ -1,0 +1,94 @@
+#listeOeuvresBloc {
+	position: relative;
+}
+#liensPages {
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	font-weight: bold;
+	color: #333;
+}
+#liensPages a {
+	margin-left: 5px;
+	padding: 5px;
+	color: #006060;
+	text-decoration: underline;
+}
+#liensPages a:first-child {
+	margin-left: 10px;
+}
+#liensPages a:hover {
+	color: #009494;
+}
+#selectedPage {
+	color: #009494 !important;
+}
+
+/* Menu */
+#listeOeuvresMenu {
+	width: 230px;
+	height: 760px;
+}
+#menuTri {
+	padding: 0 0 60px 10px;
+}
+#menuFiltres {
+	padding: 20px 0 15px 10px;
+}
+#menuFiltres .menuTitre2:nth-child(4) {
+	margin-top: 20px;
+}
+.menuTitre {
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.menuTitre2 {
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-right: 5px;
+}
+#listeOeuvresBloc input[type='submit'], #resetMenu {
+	padding: 2px 5px 5px 5px;
+	border-radius: 8px;
+	font-weight: bold;
+}
+#resetMenu {
+	margin: 20px 0 0 5px;
+}
+#listeOeuvresBloc input[type='submit'] {
+	float: right;
+	margin: 20px 10px 0 0;
+}
+#menuSepare {
+	width: 90%;
+	height: 2px;
+	margin: 0 auto 0 auto;
+	background-color: rgba(0,0,0,0.2);
+	border-radius: 2px;
+}
+
+
+
+/* Affichage oeuvres */
+#listeOeuvres {
+	position: absolute;
+	top: 0;
+	left: 230px;
+	width: 770px;
+	height: 760px;
+	background-color: rgba(255,255,255,0.5);
+}
+.oeuvreListeBloc {
+	display: block;
+	float: left;
+	height: 230px;
+	width: 170px;
+	padding: 5px;
+	margin: 10px 0 0 10px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px rgba(0,96,96,0.6);
+	background-color: white;
+	color: black;
+	text-decoration: none;
+}
