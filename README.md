@@ -1,8 +1,12 @@
 <h1>Forum de l'art</h1>
 
-Projet web(NFA021) et graphisme web (NFA084). Juillet 2015
+Web Project - CNAM - July 2015
 
-Côté serveur: PHP, MySQL, serveur Nginx<br/>
-Côté client: HTML, CSS, JavaScript
+Server side: PHP, MySQL, Nginx server<br/>
+Client side: HTML, CSS, JavaScript
 
-lien : http://vps133660.ovh.net:8080/pages/index.php
+**Description :** This project took me roughly 7 weeks to complete.<br/>
+The idea was to build an open platform for amateur artists, allowing them to share their work with other art enthousiasts.<br/>
+I came up with the original idea, and built the website from scratch.
+
+Link : http://vps133660.ovh.net:8080/pages/index.php
